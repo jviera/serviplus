@@ -1,9 +1,0 @@
-CREATE TABLE IF NOT EXISTS usuario (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(255),
-    role VARCHAR(255)
-);
-
-INSERT INTO usuario (name, role) VALUES
-('JOSE VIERA', 'ADMIN'),
-('JUAN PEREZ', 'SIMPLE-MORTAL');

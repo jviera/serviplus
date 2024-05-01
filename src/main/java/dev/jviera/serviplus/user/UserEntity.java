@@ -1,11 +1,10 @@
 package dev.jviera.serviplus.user;
 
 import jakarta.persistence.*;
-
 import java.util.Objects;
 
 @Entity
-@Table(name = "usuario")
+@Table(name = "USER")
 public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
